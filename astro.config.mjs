@@ -1,10 +1,8 @@
 // astro.config.mjs
 import { defineConfig } from "astro/config";
-import tailwindcss from "@tailwindcss/vite";
+import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  vite: {
-    plugins: [tailwindcss()],
-  },
-  site: "https://nithyaruban.github.io", // important for GitHub Pages
+  site: "https://nithyaruban.github.io",
+  integrations: [tailwind()],
 });
