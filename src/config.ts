@@ -1,92 +1,109 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Nithyaruban N",
+  title: "An Amazing Computer Science Engineer",
+  description: "Portfolio website of Nithyaruban N",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "asknithyaruban@gmail.com",
+    linkedin: "https://www.linkedin.com/in/nithyaruban/",
+    twitter: "",
+    github: "https://github.com/NITHYARUBANN",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I am a passionate computer science engineer with a love for building software that makes a difference. I enjoy learning new technologies, solving challenging problems, and contributing to projects that have real-world impact.",
+  
+  skills: [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Python",
+    "HTML/CSS",
+    "AWS",
+    "Docker"
+  ],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "Portfolio Website",
+      description: "My personal portfolio built with Astro, showcasing my projects, skills, and experience.",
+      link: "https://github.com/NITHYARUBANN/nithyaruban.github.io",
+      skills: ["Astro", "JavaScript", "TailwindCSS"]
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "Awesome Chat App",
+      description: "A real-time chat application built using React and Node.js, with authentication and chat rooms.",
+      link: "https://github.com/NITHYARUBANN/awesome-chat-app",
+      skills: ["React", "Node.js", "Socket.IO"]
     },
     {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+      name: "Mini E-commerce",
+      description: "A small e-commerce project simulating product listings, cart, and checkout using React and Node.js.",
+      link: "https://github.com/NITHYARUBANN/mini-ecommerce",
+      skills: ["React", "Node.js", "Express"]
+    }
   ],
+
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Loyola ICAM College of Engineering and Technology",
+      title: "B.E Computer Science and Engineering",
+      dateRange: "2020 - 2024",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "I had a great time during this period of my life.",
+        "Got a lot of really cool friends, more like brothers.",
+        "I have a huge load of stories to tell from this period."
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Jawahar Higher Secondary School (CBSE)",
+      title: "Class XI to XII",
+      dateRange: "2018 - 2020",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "This was the time I realized how BIG the world is!",
+        "Fortunately, I got some cool teachers to handle the academic pressure.",
+        "Overall experience in this period was good."
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Jawahar Higher Secondary School (CBSE)",
+      title: "Class LKG to X",
+      dateRange: "2006 - 2018",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "A long period during which I met a few truly cool people.",
+        "Most of the time, I didn’t even know why I was at school.",
+        "Overall, it was awesome, though sometimes challenging."
       ],
     },
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Loyola ICAM College of Engineering and Technology",
+      degree: "B.E Computer Science and Engineering",
+      dateRange: "2020 - 2024",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
+        "Currently pursuing B.E in Computer Science",
+        "Participated in multiple coding competitions and hackathons"
+      ]
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Jawahar Higher Secondary School (CBSE)",
+      degree: "Class XI & XII",
+      dateRange: "2018 - 2020",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
+        "Completed senior secondary education with good grades",
+        "Active in school clubs and tech events"
+      ]
     },
+    {
+      school: "Jawahar Higher Secondary School (CBSE)",
+      degree: "Class LKG to X",
+      dateRange: "2006 - 2018",
+      achievements: [
+        "Completed primary and secondary education",
+        "Developed early interest in computers and problem solving"
+      ]
+    }
   ],
 };
