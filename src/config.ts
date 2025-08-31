@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Nithyaruban N",
   title: "An Amazing Computer Science Engineer",
-  description: "Portfolio website",
+  description: "Portfolio website of Nithyaruban N",
   accentColor: "#1d4ed8",
   social: {
     email: "asknithyaruban@gmail.com",
@@ -10,18 +10,49 @@ export const siteConfig = {
     github: "https://github.com/NITHYARUBANN",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: [],
-  projects: [],
+    "I am a passionate computer science engineer with a love for building software that makes a difference. I enjoy learning new technologies, solving challenging problems, and contributing to projects that have real-world impact.",
+  
+  skills: [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Python",
+    "HTML/CSS",
+    "AWS",
+    "Docker"
+  ],
+
+  projects: [
+    {
+      name: "Portfolio Website",
+      description: "My personal portfolio built with Astro, showcasing my projects, skills, and experience.",
+      link: "https://github.com/NITHYARUBANN/nithyaruban.github.io",
+      skills: ["Astro", "JavaScript", "TailwindCSS"]
+    },
+    {
+      name: "Awesome Chat App",
+      description: "A real-time chat application built using React and Node.js, with authentication and chat rooms.",
+      link: "https://github.com/NITHYARUBANN/awesome-chat-app",
+      skills: ["React", "Node.js", "Socket.IO"]
+    },
+    {
+      name: "Mini E-commerce",
+      description: "A small e-commerce project simulating product listings, cart, and checkout using React and Node.js.",
+      link: "https://github.com/NITHYARUBANN/mini-ecommerce",
+      skills: ["React", "Node.js", "Express"]
+    }
+  ],
+
   experience: [
     {
       company: "Loyola ICAM College of Engineering and Technology",
-      title: "B E Computer Science and Engineering",
+      title: "B.E Computer Science and Engineering",
       dateRange: "2020 - 2024",
       bullets: [
-        "I had a greate time in the period in my whole life to be honest.",
+        "I had a great time during this period of my life.",
         "Got a lot of really cool friends, more like brothers.",
-        "I have a huge load of stories to tell from this period.",
+        "I have a huge load of stories to tell from this period."
       ],
     },
     {
@@ -29,9 +60,9 @@ export const siteConfig = {
       title: "Class XI to XII",
       dateRange: "2018 - 2020",
       bullets: [
-        "This was the time I realized how BIG the World is !",
-        "Forutnately, I got some cool teachers in this time to deal with the academic pressure.",
-        "Overall Experience in this time was good.",
+        "This was the time I realized how BIG the world is!",
+        "Fortunately, I got some cool teachers to handle the academic pressure.",
+        "Overall experience in this period was good."
       ],
     },
     {
@@ -39,11 +70,40 @@ export const siteConfig = {
       title: "Class LKG to X",
       dateRange: "2006 - 2018",
       bullets: [
-        "Such a huge time and I only met a few countable people who were cool.",
-        "Most of the time, I don't even know Why I've gone to school.",
-        "Overall, It should've been awesome, but it was only good.",
+        "A long period during which I met a few truly cool people.",
+        "Most of the time, I didn’t even know why I was at school.",
+        "Overall, it was awesome, though sometimes challenging."
       ],
     },
   ],
-  education: [],
+
+  education: [
+    {
+      school: "Loyola ICAM College of Engineering and Technology",
+      degree: "B.E Computer Science and Engineering",
+      dateRange: "2020 - 2024",
+      achievements: [
+        "Currently pursuing B.E in Computer Science",
+        "Participated in multiple coding competitions and hackathons"
+      ]
+    },
+    {
+      school: "Jawahar Higher Secondary School (CBSE)",
+      degree: "Class XI & XII",
+      dateRange: "2018 - 2020",
+      achievements: [
+        "Completed senior secondary education with good grades",
+        "Active in school clubs and tech events"
+      ]
+    },
+    {
+      school: "Jawahar Higher Secondary School (CBSE)",
+      degree: "Class LKG to X",
+      dateRange: "2006 - 2018",
+      achievements: [
+        "Completed primary and secondary education",
+        "Developed early interest in computers and problem solving"
+      ]
+    }
+  ],
 };
